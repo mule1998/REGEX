@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace REGEX
+namespace Regx
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Regex problems");
+            Console.WriteLine("RegeX Programs!");
+            Patterns patterns = new Patterns();
+            patterns.Pattern();
         }
     }
 }
