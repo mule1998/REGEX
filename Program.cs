@@ -28,6 +28,8 @@ namespace DAY_19_UserRegistration
             Console.Write("Enter your password: ");
             password = Console.ReadLine();
             UserRegistration.checkPassword(password);
+
+
         }
     }
 }
